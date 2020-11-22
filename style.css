@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Tahoma;
+    background-color: rgb(204, 253, 251);
+    color: black;
+}
+
+header {
+    background-color: black;
+    padding: 0px;
+    color: white;
+    font-family: cursive;
+    background-image: url(tenor.gif);
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+}
+
+font {
+    letter-spacing: 2px;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+    font-size: xx-large;
+}
+
+nav {
+    background-color: rgb(80, 78, 78);
+    padding: 1%;
+    color: white;
+    text-align: center;
+    float: center;
+    font-size: x-large;
+    width: 100%;
+}
+
+nav a i {
+    margin-right: 10px;
+}
+
+ul {
+    padding-left: 5px;
+    height: 100%;
+    width: auto;
+    margin: 0px;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(204, 253, 251);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 21%;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+main {
+    text-align: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+}
+
+#yazi {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.left {
+    float: left;
+    margin-right: 8%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 8%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.iright {
+    float: right;
+}
+
+.ileft {
+    float: left;
+}
+
+#resim {
+    max-width: 75%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 3%;
+}
+
+.usticerik {
+    margin: auto;
+    padding: 4%;
+    border-bottom: 3px rgb(187, 122, 2) solid;
+    width: 80%;
+    text-align: center;
+    overflow: auto;
+}
+
+.alticerik {
+    margin: auto;
+    padding: 3%;
+    width: 80%;
+    text-align: center;
+    overflow: auto;
+}
+
+.leftkariyer {
+    float: right;
+    width: 70%;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.rightkariyer {
+    float: left;
+    width: 70%;
+    margin-bottom: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+iframe {
+    margin-top: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 0;
+    padding: 3%;
+    text-align: center;
+    padding-top: 70%;
+    margin-top: 10%;
+}
+
+.mapiframe {
+    position: absolute;
+    margin-top: 1%;
+    width: 95%;
+    height: 80%;
+    border: none;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    float: bottom;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+footer i {
+    float: right;
+    letter-spacing: 0.2%;
+    margin-right: 0.3%;
+    padding-top: -0, 9%;
+}
+
+.yorumlariniz {
+    float: left;
+    text-align: left;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(80, 78, 78);
+    color: white;
+    border-top: 2px solid wheat;
+    border-bottom: 2px wheat solid;
+    list-style-type: none;
+}
+
+input {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    z-index: 0;
+    opacity: 0;
+    display: none;
+    background-color: black;
+}
+
+input:checked~.yorumlariniz {
+    display: block;
+    position: relative;
+}
+
+li {
+    display: inline;
+}
+
+#yrm {
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 926px) {
+    input {
+        display: block;
+    }
+    .yorumlariniz {
+        display: none;
+        width: 100%;
+    }
+    li {
+        display: block;
+    }
+    .yazinav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 927px) {
+    #yrm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    nav {
+        word-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width: 240px) {
+    nav {
+        word-spacing: 5px;
+    }
+}
+
+@media only screen and (min-width: 322px) {
+    nav {
+        word-spacing: 25px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    nav {
+        word-spacing: 50px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    nav {
+        word-spacing: 70px;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    .iright {
+        width: 30%;
+    }
+    .ileft {
+        width: 30%;
+    }
+    .iorta {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 927px) {
+    .left {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .right {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .iright {
+        float: top;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 927px) {
+    .left {
+        max-width: 40%;
+    }
+    .right {
+        max-width: 40%;
+    }
+}
+
+@media only screen and (min-width: 927px) {
+    nav {
+        word-spacing: 30px;
+    }
+    #yrm {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1122px) {
+    nav {
+        word-spacing: 40px;
+    }
+}
