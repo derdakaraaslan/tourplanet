@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://derdakaraaslan.github.io/index.html</loc>
+  <priority>0.1</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2020-12-17</lastmod>
+</url>
+<url>
+  <loc>http://derdakaraaslan.github.io/hizmetlerimiz.html</loc>
+  <priority>0.1</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2020-12-17</lastmod>
+</url>
+<url>
+  <loc>http://derdakaraaslan.github.io/kurumsal.html</loc>
+  <priority>0.1</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2020-12-17</lastmod>
+</url>
+<url>
+  <loc>http://derdakaraaslan.github.io/kariyer.html</loc>
+  <priority>0.1</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2020-12-17</lastmod>
+</url>
+<url>
+  <loc>http://derdakaraaslan.github.io/iletisim.html</loc>
+  <priority>0.1</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2020-12-17</lastmod>
+</url>
+<url>
+  <loc>http://derdakaraaslan.github.io/</loc>
+  <priority>0.1</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2020-12-17</lastmod>
+</url>
+</urlset>
